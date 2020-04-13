@@ -1,8 +1,8 @@
 # Github-Search
-This is an angular application that enables one to search a github user and their repositories
+This is an angular application that enables one to search a github user and their repositories.
 ## Author.
 **Billy Ayiera**
- - *Project* - Live link at:
+ - *Project* - Live link at: https://billyayiera.github.io/IP2/
 
 ## Requirements
 Web browser with an internet connection.
