@@ -1,7 +1,7 @@
-# GithubSearch
+# Github-Search
 This is an angular application that enables one to search a github user and their repositories
 ## Author.
-**Mburiah Betty**
+**Billy Ayiera**
  - *Project* - Live link at:
 
 ## Requirements
