@@ -1,26 +1,34 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProfileComponent } from './profiles/profiles.component';
+import { ProfileService } from './profiles.service';
+import { FormsModule }from '@angular/forms';
+import { HttpClientModule }from '@angular/common/http';
 import { DateCountPipe } from './date-count.pipe';
 import { HighlightDirective } from './highlight.directive';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { ProfilesComponent } from './profiles/profiles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    ProfileComponent,
     DateCountPipe,
     HighlightDirective,
-    NotFoundComponent,
-    ProfilesComponent
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+  
+   
   ],
-  providers: [],
+  providers: [ProfileService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
