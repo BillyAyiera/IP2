@@ -12,12 +12,12 @@ Web browser with an internet connection.
 
  | Input | Description| Output |
  |:---    | ---: | ---: |
- | text | user types text on the search form | github profile is automatically fetched |   
- | view profile on github | Click on the button | redirects to the person's github profile |
- | view repo | Click on the button below repo |  redirects to the particular repo on github |
+ | Text | User types text on the search form | github profile is automatically fetched |   
+ | View profile on github | Click on the button | redirects to the person's github profile |
+ | View repo | Click on the button below repo |  redirects to the particular repo on github |
 
 ## Technologies used.
-* Angular 9
+* Angular 8
 * Typescript
 * Github Api OAuth app (tokens)
 * HTML, CSS and Javascript.
